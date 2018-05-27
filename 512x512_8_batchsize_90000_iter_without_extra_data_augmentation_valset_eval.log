@@ -1,0 +1,77 @@
+Loading and preparing results...
+DONE (t=0.50s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=9.93s).
+Accumulating evaluation results...
+DONE (t=0.60s).
+INFO json_dataset_evaluator.py: 222: ~~~~ Mean and per-category AP @ IoU=[0.50,0.95] ~~~~
+INFO json_dataset_evaluator.py: 223: 43.2
+INFO json_dataset_evaluator.py: 234: bicycle: 31.5
+INFO json_dataset_evaluator.py: 234: bus: 56.7
+INFO json_dataset_evaluator.py: 234: person: 48.4
+INFO json_dataset_evaluator.py: 234: train: 28.7
+INFO json_dataset_evaluator.py: 234: truck: 39.3
+INFO json_dataset_evaluator.py: 234: motorcycle: 34.3
+INFO json_dataset_evaluator.py: 234: car: 58.8
+INFO json_dataset_evaluator.py: 234: rider: 48.2
+INFO json_dataset_evaluator.py: 235: ~~~~ Summary metrics ~~~~
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.432
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.676
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.452
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.250
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.596
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.287
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.515
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.567
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.359
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.571
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.726
+INFO json_dataset_evaluator.py: 199: Wrote json eval results to: /data2/tmp/detectron-output-cityscapes_e2e_mask_rcnn_R-50-FPN_1x_1gpu_rpn26_fpn15_224log2floor_grid_crop_with_filter_scale_512/test/cityscapes_fine_instanceonly_seg_val/generalized_rcnn/detection_results.pkl
+INFO task_evaluation.py:  61: Evaluating bounding boxes is done!
+INFO task_evaluation.py: 104: Evaluating segmentations
+INFO json_dataset_evaluator.py:  83: Writing segmentation results json to: /data2/tmp/detectron-output-cityscapes_e2e_mask_rcnn_R-50-FPN_1x_1gpu_rpn26_fpn15_224log2floor_grid_crop_with_filter_scale_512/test/cityscapes_fine_instanceonly_seg_val/generalized_rcnn/segmentations_cityscapes_fine_instanceonly_seg_val_results.json
+Loading and preparing results...
+DONE (t=1.30s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=11.63s).
+Accumulating evaluation results...
+DONE (t=0.61s).
+INFO json_dataset_evaluator.py: 222: ~~~~ Mean and per-category AP @ IoU=[0.50,0.95] ~~~~
+INFO json_dataset_evaluator.py: 223: 37.4
+INFO json_dataset_evaluator.py: 234: bicycle: 20.9
+INFO json_dataset_evaluator.py: 234: bus: 55.6
+INFO json_dataset_evaluator.py: 234: person: 38.0
+INFO json_dataset_evaluator.py: 234: train: 40.5
+INFO json_dataset_evaluator.py: 234: truck: 38.5
+INFO json_dataset_evaluator.py: 234: motorcycle: 23.4
+INFO json_dataset_evaluator.py: 234: car: 51.0
+INFO json_dataset_evaluator.py: 234: rider: 31.5
+INFO json_dataset_evaluator.py: 235: ~~~~ Summary metrics ~~~~
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.374
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.633
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.385
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.129
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.356
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.590
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.270
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.454
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.489
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.478
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.685
+INFO json_dataset_evaluator.py: 122: Wrote json eval results to: /data2/tmp/detectron-output-cityscapes_e2e_mask_rcnn_R-50-FPN_1x_1gpu_rpn26_fpn15_224log2floor_grid_crop_with_filter_scale_512/test/cityscapes_fine_instanceonly_seg_val/generalized_rcnn/segmentation_results.pkl
+INFO task_evaluation.py:  65: Evaluating segmentations is done!
+INFO task_evaluation.py: 181: copypaste: Dataset: cityscapes_fine_instanceonly_seg_val
+INFO task_evaluation.py: 183: copypaste: Task: box
+INFO task_evaluation.py: 186: copypaste: AP,AP50,AP75,APs,APm,APl
+INFO task_evaluation.py: 187: copypaste: 0.4324,0.6761,0.4520,0.2499,0.4491,0.5960
+INFO task_evaluation.py: 183: copypaste: Task: mask
+INFO task_evaluation.py: 186: copypaste: AP,AP50,AP75,APs,APm,APl
+INFO task_evaluation.py: 187: copypaste: 0.3744,0.6328,0.3845,0.1287,0.3560,0.5900

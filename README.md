@@ -1,3 +1,22 @@
+## Main Configuration
+
+GPU: 2 x GTX1080 or 1 x P100
+
+512x512 version:
+
+  Batchsize: 4 for GTX1080 or 8 for P100
+
+  iter:     90k
+
+
+1024x2048 version:
+
+  Batchsize: 2 for P100
+
+  iter: 108k
+
+
+
 ~~~~ Mean and per-category AP @ IoU=[0.50,0.95] ~~~~
 
 mAP: 47.7
